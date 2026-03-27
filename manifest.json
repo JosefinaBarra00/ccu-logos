@@ -1,0 +1,29 @@
+{
+  "name": "Logo Marca CCU",
+  "organization": "CCU",
+  "description": "Muestra el logo según la marca filtrada",
+  "devMode": false,
+  "components": [{
+    "id": "logo",
+    "name": "Logo Marca",
+    "description": "Imagen dinámica por marca",
+    "iconUrl": "https://www.gstatic.com/images/icons/material/system/1x/image_grey600_24dp.png",
+    "resource": {
+      "js": ["logo.js"],
+      "css": ["logo.css"]
+    },
+    "data": [{
+      "id": "concepts",
+      "label": "Datos",
+      "elements": [{
+        "id": "url_imagen",
+        "label": "URL Imagen",
+        "type": "METRIC",
+        "options": {
+          "min": 1,
+          "max": 1
+        }
+      }]
+    }]
+  }]
+}
