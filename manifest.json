@@ -3,6 +3,9 @@
   "organization": "CCU",
   "description": "Muestra el logo según la marca filtrada",
   "devMode": false,
+  "packageUrl": "https://josefinabarra00.github.io/ccu-logos/",
+  "largeScreenshot": "https://www.gstatic.com/images/icons/material/system/1x/image_grey600_24dp.png",
+  "support": "https://josefinabarra00.github.io/ccu-logos/",
   "components": [{
     "id": "logo",
     "name": "Logo Marca",
